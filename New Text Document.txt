@@ -1,3 +1,7 @@
 Nikhil
 Cody
+<<<<<<< HEAD
 Jorge
+=======
+Erick
+>>>>>>> 7193752ebb06c7bb860fb3c85d7e60861024d25d
