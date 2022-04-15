@@ -1,0 +1,13 @@
+
+
+<table border="1">
+    <tr *ngFor="let s of stockLIst">
+        <td> {{ s.stockId }}</td>
+        <td> {{ s.stockName }}</td>
+        <td> {{ s.stockCategory }}</td>
+        <td> {{ s.buyQty }}</td>
+        <td> {{ s.buyPrice }}</td>
+        <td> {{ s.currentPrice }}</td>
+        <td> {{ '' | stock : s.buyPrice : s.currentPrice }}</td>
+    </tr>
+</table>

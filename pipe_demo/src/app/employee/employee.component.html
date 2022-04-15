@@ -1,0 +1,11 @@
+<p>employee works!</p>
+
+
+<table>
+    <tr *ngFor="let e of  empList">
+        <td> {{ e.empNo }}</td>
+        <td> {{ e.empName | gendergreetings : e.empGender | uppercase }}</td>
+        <td> {{ e.empDesigantion }}</td>
+        <td> {{ e.empGender }}</td>
+    </tr>
+</table>
